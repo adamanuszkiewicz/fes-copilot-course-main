@@ -30,7 +30,7 @@ const featuredProjects: PortfolioProject[] = [
       'This Spotify app was made using React, HTML, Tailwind CSS and JavaScript. You can browse music, create playlists, and enjoy a modern, responsive UI. The app features interactive music controls, playlist management, and a seamless user experience inspired by Spotify.',
     stack: ['React', 'HTML', 'Tailwind CSS', 'JavaScript'],
     href: 'https://spotify-clone-ruby-five-19.vercel.app/',
-    imageSrc: '/assets/module-5-portfolio/projects/portfolio-2026/spotify img.png',
+    imageSrc: '/assets/module-5-portfolio/projects/portfolio-2026/shopify img.png',
     imageAlt: 'Preview of the Design System Lab project',
   },
   {
