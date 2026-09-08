@@ -30,7 +30,7 @@ const featuredProjects: PortfolioProject[] = [
       'This Spotify app was made using React, HTML, Tailwind CSS and JavaScript. You can browse music, create playlists, and enjoy a modern, responsive UI. The app features interactive music controls, playlist management, and a seamless user experience inspired by Spotify.',
     stack: ['React', 'HTML', 'Tailwind CSS', 'JavaScript'],
     href: 'https://spotify-clone-ruby-five-19.vercel.app/',
-    imageSrc: '/assets/module-5-portfolio/projects/portfolio-2026/shopify img.png',
+    imageSrc: '/assets/module-5-portfolio/projects/portfolio-2026/Spotify img.png',
     imageAlt: 'Preview of the Design System Lab project',
   },
   {
@@ -500,7 +500,10 @@ export default function Module5Portfolio() {
                 </div>
 
                 <p className="text-base leading-7 text-slate-600 dark:text-slate-400">
-                  I'm a Frontend Software Engineer passionate about building polished, accessible, and user-focused web experiences. I specialize in developing modern web applications that balance thoughtful design, usability, and performance, with a strong emphasis on understanding and meeting user needs.
+                  I'm a Frontend Software Engineer passionate about building polished, accessible,
+                  and user-focused web experiences. I specialize in developing modern web
+                  applications that balance thoughtful design, usability, and performance, with a
+                  strong emphasis on understanding and meeting user needs.
                 </p>
 
                 <div>
@@ -563,9 +566,9 @@ export default function Module5Portfolio() {
               </button>
             </div>
           </div>
-              <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
-                &copy; {new Date().getFullYear()} Adam Anuszkiewicz. All rights reserved.
-              </p>
+          <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
+            &copy; {new Date().getFullYear()} Adam Anuszkiewicz. All rights reserved.
+          </p>
         </FadeInSection>
       </div>
 
