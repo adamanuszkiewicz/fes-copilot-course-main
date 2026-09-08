@@ -1,4 +1,4 @@
-import { calculateDiscount } from '@/app/practice/module-2-agent-features/page'
+import { calculateDiscount } from '@/lib/module2/calculateDiscount'
 
 describe('calculateDiscount', () => {
   it('returns price minus discount for valid inputs', () => {
