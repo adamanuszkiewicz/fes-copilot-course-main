@@ -9,7 +9,7 @@ import { useState } from 'react'
  * Look for the bold comments below to know where to practice!
  */
 
-export default function Module1Practice() {
+export default function Page() {
   return (
     <div className="min-h-screen p-8 bg-gray-50">
       <div className="max-w-4xl mx-auto">
@@ -350,54 +350,7 @@ function TipCalculator() {
  *
  * ========================================== */
 
-/* ==========================================
- * TESTS FOR TIPCALCULATOR
- * ==========================================
- *
- * Unit tests for the TipCalculator component
- */
-
-// Test 1: Renders without crashing
-export function testTipCalculatorRenders() {
-  // Should render the component without errors
-  return true
-}
-
-// Test 2: Handles bill amount input
-export function testBillAmountInput() {
-  const billAmount = '100'
-  const billValue = Number(billAmount) || 0
-  return billValue === 100
-}
-
-// Test 3: Calculates tip correctly
-export function testTipCalculation() {
-  const billValue = 100
-  const tipPercent = 15
-  const tipAmount = (billValue * tipPercent) / 100
-  return tipAmount === 15
-}
-
-// Test 4: Calculates total correctly
-export function testTotalCalculation() {
-  const billValue = 100
-  const tipPercent = 15
-  const tipAmount = (billValue * tipPercent) / 100
-  const total = billValue + tipAmount
-  return total === 115
-}
-
-// Test 5: Handles zero bill amount
-export function testZeroBillAmount() {
-  const billAmount = ''
-  const billValue = Number(billAmount) || 0
-  const tipPercent = 15
-  const tipAmount = (billValue * tipPercent) / 100
-  const total = billValue + tipAmount
-  return tipAmount === 0 && total === 0
-}
-
-// Test 6: Handles different tip percentages
+/* Test helpers were moved to lib/module1/tipCalculatorTests.ts */
 export function testDifferentTipPercentages() {
   const billValue = 50
   const results = [10, 15, 18, 20].map(tipPercent => ({
